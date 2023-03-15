@@ -75,7 +75,3 @@ def _main(argc: int, argv: List[str]) -> int:
     con.send_file()
 
     return 0
-
-
-if __name__ == "__main__":
-    exit(_main(len(sys.argv), sys.argv))
